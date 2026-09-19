@@ -1,0 +1,137 @@
+2026-09-19 18:43:23 INFO ========================================
+2026-09-19 18:43:23 INFO Application startup initiated
+2026-09-19 18:43:23 INFO ========================================
+2026-09-19 18:43:23 INFO Connecting to MongoDB
+2026-09-19 18:43:23 INFO MongoDB connection initialization started
+2026-09-19 18:43:24 INFO MongoDB connected successfully host=ac-vpxc1ct-shard-00-00.v2iqq07.mongodb.net database=test
+2026-09-19 18:43:24 INFO MongoDB connection established
+2026-09-19 18:43:24 INFO Student Management API started successfully port=5000
+2026-09-19 18:43:24 INFO Application environment=development
+2026-09-19 18:43:24 INFO Health endpoint available at /api/health
+2026-09-19 18:45:33 INFO HTTP ::1 OPTIONS /api/auth/login 204 3.387 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:45:34 INFO User login successful userId=6aad357f50ea287edd557997 email=malo.ganesh98@gmail.com
+2026-09-19 18:45:34 INFO HTTP ::1 POST /api/auth/login 200 795.958 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:45:34 INFO HTTP ::1 OPTIONS /api/students 204 0.351 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:45:34 INFO Fetching all students
+2026-09-19 18:45:36 INFO Students fetched successfully count=2
+2026-09-19 18:45:36 INFO HTTP ::1 GET /api/students 200 2012.076 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:45:36 INFO Fetching all students
+2026-09-19 18:45:36 INFO Students fetched successfully count=2
+2026-09-19 18:45:36 INFO HTTP ::1 GET /api/students 304 93.765 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:45:44 INFO HTTP ::1 OPTIONS /api/students 204 0.307 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:45:44 INFO HTTP ::1 OPTIONS /api/students 204 0.398 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:45:44 INFO Fetching all students
+2026-09-19 18:45:44 INFO Students fetched successfully count=2
+2026-09-19 18:45:44 INFO HTTP ::1 GET /api/students 304 46.748 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:45:44 INFO Fetching all students
+2026-09-19 18:45:44 INFO Students fetched successfully count=2
+2026-09-19 18:45:44 INFO HTTP ::1 GET /api/students 304 38.274 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:45:47 INFO HTTP ::1 OPTIONS /api/students/6aad489b1ee1bc41e62d653b 204 0.265 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:45:47 INFO HTTP ::1 OPTIONS /api/students/6aad489b1ee1bc41e62d653b 204 0.269 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:45:47 INFO Fetching student studentRecordId=6aad489b1ee1bc41e62d653b
+2026-09-19 18:45:47 INFO Student fetched successfully studentId=STU001
+2026-09-19 18:45:47 INFO HTTP ::1 GET /api/students/6aad489b1ee1bc41e62d653b 200 40.185 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:45:47 INFO Fetching student studentRecordId=6aad489b1ee1bc41e62d653b
+2026-09-19 18:45:47 INFO Student fetched successfully studentId=STU001
+2026-09-19 18:45:47 INFO HTTP ::1 GET /api/students/6aad489b1ee1bc41e62d653b 304 38.367 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:45:50 INFO Fetching student studentRecordId=6aad489b1ee1bc41e62d653b
+2026-09-19 18:45:52 INFO Student fetched successfully studentId=STU001
+2026-09-19 18:45:52 INFO HTTP ::1 GET /api/students/6aad489b1ee1bc41e62d653b 304 1418.895 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:45:52 INFO Fetching student studentRecordId=6aad489b1ee1bc41e62d653b
+2026-09-19 18:45:52 INFO Student fetched successfully studentId=STU001
+2026-09-19 18:45:52 INFO HTTP ::1 GET /api/students/6aad489b1ee1bc41e62d653b 304 47.063 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:46:08 INFO HTTP ::1 OPTIONS /api/students 204 0.611 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:46:08 INFO HTTP ::1 OPTIONS /api/students 204 0.252 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:46:08 INFO Fetching all students
+2026-09-19 18:46:08 INFO Students fetched successfully count=2
+2026-09-19 18:46:08 INFO HTTP ::1 GET /api/students 304 48.353 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:46:08 INFO Fetching all students
+2026-09-19 18:46:08 INFO Students fetched successfully count=2
+2026-09-19 18:46:08 INFO HTTP ::1 GET /api/students 304 35.778 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:46:11 INFO HTTP ::1 OPTIONS /api/students/6aad489b1ee1bc41e62d653b 204 0.799 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:46:11 INFO HTTP ::1 OPTIONS /api/students/6aad489b1ee1bc41e62d653b 204 0.353 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:46:11 INFO Fetching student studentRecordId=6aad489b1ee1bc41e62d653b
+2026-09-19 18:46:11 INFO Student fetched successfully studentId=STU001
+2026-09-19 18:46:11 INFO HTTP ::1 GET /api/students/6aad489b1ee1bc41e62d653b 304 37.778 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:46:11 INFO Fetching student studentRecordId=6aad489b1ee1bc41e62d653b
+2026-09-19 18:46:11 INFO Student fetched successfully studentId=STU001
+2026-09-19 18:46:11 INFO HTTP ::1 GET /api/students/6aad489b1ee1bc41e62d653b 304 43.094 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:46:15 INFO HTTP ::1 OPTIONS /api/students 204 0.143 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:46:15 INFO HTTP ::1 OPTIONS /api/students 204 0.116 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:46:15 INFO Fetching all students
+2026-09-19 18:46:15 INFO Students fetched successfully count=2
+2026-09-19 18:46:15 INFO HTTP ::1 GET /api/students 304 65.513 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:46:15 INFO Fetching all students
+2026-09-19 18:46:15 INFO Students fetched successfully count=2
+2026-09-19 18:46:15 INFO HTTP ::1 GET /api/students 304 37.782 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:46:48 INFO HTTP ::1 OPTIONS /api/students 204 0.240 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:46:48 INFO HTTP ::1 OPTIONS /api/students 204 0.179 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:46:48 INFO Fetching all students
+2026-09-19 18:46:48 INFO Students fetched successfully count=2
+2026-09-19 18:46:48 INFO HTTP ::1 GET /api/students 304 60.009 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:46:48 INFO Fetching all students
+2026-09-19 18:46:49 INFO Students fetched successfully count=2
+2026-09-19 18:46:49 INFO HTTP ::1 GET /api/students 304 174.795 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:46:51 INFO HTTP ::1 OPTIONS /api/students/6aad489b1ee1bc41e62d653b 204 0.108 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:46:51 INFO HTTP ::1 OPTIONS /api/students/6aad489b1ee1bc41e62d653b 204 0.141 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:46:51 INFO Fetching student studentRecordId=6aad489b1ee1bc41e62d653b
+2026-09-19 18:46:51 INFO Student fetched successfully studentId=STU001
+2026-09-19 18:46:51 INFO HTTP ::1 GET /api/students/6aad489b1ee1bc41e62d653b 304 38.182 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:46:51 INFO Fetching student studentRecordId=6aad489b1ee1bc41e62d653b
+2026-09-19 18:46:52 INFO Student fetched successfully studentId=STU001
+2026-09-19 18:46:52 INFO HTTP ::1 GET /api/students/6aad489b1ee1bc41e62d653b 304 34.691 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:46:58 INFO HTTP ::1 OPTIONS /api/students/6aad489b1ee1bc41e62d653b 204 0.218 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:46:58 INFO HTTP ::1 OPTIONS /api/students/6aad489b1ee1bc41e62d653b 204 0.138 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:46:58 INFO Fetching student studentRecordId=6aad489b1ee1bc41e62d653b
+2026-09-19 18:46:58 INFO Student fetched successfully studentId=STU001
+2026-09-19 18:46:59 INFO HTTP ::1 GET /api/students/6aad489b1ee1bc41e62d653b 304 36.870 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:46:59 INFO Fetching student studentRecordId=6aad489b1ee1bc41e62d653b
+2026-09-19 18:46:59 INFO Student fetched successfully studentId=STU001
+2026-09-19 18:46:59 INFO HTTP ::1 GET /api/students/6aad489b1ee1bc41e62d653b 304 33.549 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:47:03 INFO HTTP ::1 OPTIONS /api/students 204 0.168 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:47:03 INFO Fetching all students
+2026-09-19 18:47:03 INFO Students fetched successfully count=2
+2026-09-19 18:47:03 INFO HTTP ::1 GET /api/students 304 34.879 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:47:03 INFO Fetching all students
+2026-09-19 18:47:03 INFO Students fetched successfully count=2
+2026-09-19 18:47:03 INFO HTTP ::1 GET /api/students 304 131.639 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:47:06 INFO Fetching all students
+2026-09-19 18:47:06 INFO Students fetched successfully count=2
+2026-09-19 18:47:06 INFO HTTP ::1 GET /api/students 304 97.741 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:47:06 INFO Fetching all students
+2026-09-19 18:47:07 INFO Students fetched successfully count=2
+2026-09-19 18:47:07 INFO HTTP ::1 GET /api/students 304 143.300 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:47:12 INFO HTTP ::1 OPTIONS /api/students 204 0.150 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:47:12 INFO Fetching all students
+2026-09-19 18:47:12 INFO HTTP ::1 OPTIONS /api/students 204 0.338 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:47:14 INFO Students fetched successfully count=2
+2026-09-19 18:47:14 INFO HTTP ::1 GET /api/students 304 1511.168 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:47:14 INFO Fetching all students
+2026-09-19 18:47:14 INFO Students fetched successfully count=2
+2026-09-19 18:47:14 INFO HTTP ::1 GET /api/students 304 46.298 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:50:16 INFO HTTP ::1 OPTIONS /api/students 204 0.199 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:50:16 INFO HTTP ::1 OPTIONS /api/students 204 0.135 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:50:16 INFO Fetching all students
+2026-09-19 18:50:16 INFO Students fetched successfully count=2
+2026-09-19 18:50:16 INFO HTTP ::1 GET /api/students 304 39.709 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:50:16 INFO Fetching all students
+2026-09-19 18:50:16 INFO Students fetched successfully count=2
+2026-09-19 18:50:16 INFO HTTP ::1 GET /api/students 304 41.191 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:50:43 INFO HTTP ::1 OPTIONS /api/students 204 0.147 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:50:43 INFO HTTP ::1 OPTIONS /api/students 204 0.160 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:50:43 INFO Fetching all students
+2026-09-19 18:50:43 INFO Students fetched successfully count=2
+2026-09-19 18:50:43 INFO HTTP ::1 GET /api/students 304 36.244 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:50:43 INFO Fetching all students
+2026-09-19 18:50:43 INFO Students fetched successfully count=2
+2026-09-19 18:50:43 INFO HTTP ::1 GET /api/students 304 38.386 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:52:53 INFO HTTP ::1 OPTIONS /api/auth/login 204 0.116 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:52:54 INFO User login successful userId=6aad357f50ea287edd557997 email=malo.ganesh98@gmail.com
+2026-09-19 18:52:54 INFO HTTP ::1 POST /api/auth/login 200 182.543 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:52:54 INFO HTTP ::1 OPTIONS /api/students 204 0.155 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:52:54 INFO Fetching all students
+2026-09-19 18:52:54 INFO Students fetched successfully count=2
+2026-09-19 18:52:54 INFO HTTP ::1 GET /api/students 304 34.197 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 18:52:54 INFO Fetching all students
+2026-09-19 18:52:54 INFO Students fetched successfully count=2
+2026-09-19 18:52:54 INFO HTTP ::1 GET /api/students 304 32.657 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"

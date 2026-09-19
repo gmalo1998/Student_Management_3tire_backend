@@ -2,8 +2,10 @@ require('dotenv').config();
 
 const express = require('express');
 const cors = require('cors');
+const morgan = require('morgan');
 
 const connectDB = require('./config/db');
+const logger = require('./utils/logger');
 
 const studentRoutes = require('./routes/studentRoutes');
 const authRoutes = require('./routes/authRoutes');
@@ -14,6 +16,30 @@ const {
 } = require('./middleware/errorMiddleware');
 
 const app = express();
+
+// ========================================
+// LOGGER CONFIGURATION
+// ========================================
+
+// Morgan captures HTTP/API access logs
+// and sends them to Winston.
+
+morgan.token('user-agent', (req) => {
+  return req.get('user-agent') || 'unknown';
+});
+
+app.use(
+  morgan(
+    ':remote-addr :method :url :status :response-time ms user-agent=":user-agent"',
+    {
+      stream: {
+        write: (message) => {
+          logger.info(`HTTP ${message.trim()}`);
+        },
+      },
+    }
+  )
+);
 
 // ========================================
 // MIDDLEWARE
@@ -33,6 +59,8 @@ app.use(express.urlencoded({ extended: true }));
 // ========================================
 
 app.get('/api/health', (req, res) => {
+  logger.debug('Health check requested');
+
   res.status(200).json({
     success: true,
     message: 'Student Management API is running',
@@ -61,21 +89,43 @@ const PORT = process.env.PORT || 5000;
 
 const startServer = async () => {
   try {
-    // Wait for MongoDB Atlas connection
+    logger.info('========================================');
+    logger.info('Application startup initiated');
+    logger.info('========================================');
+
+    // ------------------------------------
+    // MongoDB
+    // ------------------------------------
+
+    logger.info('Connecting to MongoDB');
+
     await connectDB();
 
-    console.log('MongoDB connected successfully');
+    logger.info('MongoDB connection established');
+
+    // ------------------------------------
+    // Start HTTP Server
+    // ------------------------------------
 
     app.listen(PORT, () => {
-      console.log(
-        `Server running on http://localhost:${PORT}`
+      logger.info(
+        `Student Management API started successfully port=${PORT}`
+      );
+
+      logger.info(
+        `Application environment=${process.env.NODE_ENV || 'development'}`
+      );
+
+      logger.info(
+        `Health endpoint available at /api/health`
       );
     });
 
   } catch (error) {
-    console.error(
-      'Server startup failed:',
-      error.message
+
+    logger.error(
+      `Server startup failed message="${error.message}"`,
+      error
     );
 
     process.exit(1);
