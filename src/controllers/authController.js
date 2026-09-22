@@ -1,24 +1,29 @@
 const bcrypt = require('bcryptjs');
 
 const User = require('../models/User');
+
 const logger = require('../utils/logger');
 
-// ==============================
+// ========================================
 // REGISTER
-// ==============================
+// ========================================
 
 const registerUser = async (req, res) => {
   try {
     const { name, email, password } = req.body;
 
+    const normalizedEmail = email
+      ? email.toLowerCase().trim()
+      : '';
+
     logger.debug(
-      `Registration request received email=${email ? email.toLowerCase().trim() : 'missing'}`
+      `Registration request received email=${normalizedEmail || 'missing'}`
     );
 
     // Validate required fields
     if (!name || !email || !password) {
       logger.warn(
-        `Registration validation failed reason=missing_required_fields email=${email || 'missing'}`
+        `Registration validation failed reason=missing_required_fields email=${normalizedEmail || 'missing'}`
       );
 
       return res.status(400).json({
@@ -30,7 +35,7 @@ const registerUser = async (req, res) => {
     // Validate password length
     if (password.length < 6) {
       logger.warn(
-        `Registration validation failed reason=weak_password email=${email.toLowerCase().trim()}`
+        `Registration validation failed reason=weak_password email=${normalizedEmail}`
       );
 
       return res.status(400).json({
@@ -39,13 +44,11 @@ const registerUser = async (req, res) => {
       });
     }
 
-    const normalizedEmail = email.toLowerCase().trim();
-
+    // Check existing user
     logger.debug(
       `Checking existing user email=${normalizedEmail}`
     );
 
-    // Check existing user
     const existingUser = await User.findOne({
       email: normalizedEmail,
     });
@@ -74,13 +77,15 @@ const registerUser = async (req, res) => {
 
     // Create user
     const user = await User.create({
-      name,
+      name: name.trim(),
       email: normalizedEmail,
       password: hashedPassword,
+      role: 'user',
+      status: 'Active',
     });
 
     logger.info(
-      `User registration successful userId=${user._id} email=${normalizedEmail}`
+      `User registration successful userId=${user._id} email=${normalizedEmail} role=${user.role}`
     );
 
     return res.status(201).json({
@@ -90,10 +95,13 @@ const registerUser = async (req, res) => {
         id: user._id,
         name: user.name,
         email: user.email,
+        role: user.role,
+        status: user.status,
       },
     });
 
   } catch (error) {
+
     logger.error(
       `Register operation failed message="${error.message}"`,
       error
@@ -101,6 +109,7 @@ const registerUser = async (req, res) => {
 
     // Handle duplicate email race condition
     if (error.code === 11000) {
+
       logger.warn(
         'Registration rejected reason=duplicate_email_race_condition'
       );
@@ -118,22 +127,28 @@ const registerUser = async (req, res) => {
   }
 };
 
-// ==============================
+// ========================================
 // LOGIN
-// ==============================
+// ========================================
 
 const loginUser = async (req, res) => {
   try {
+
     const { email, password } = req.body;
 
+    const normalizedEmail = email
+      ? email.toLowerCase().trim()
+      : '';
+
     logger.debug(
-      `Login request received email=${email ? email.toLowerCase().trim() : 'missing'}`
+      `Login request received email=${normalizedEmail || 'missing'}`
     );
 
     // Validate required fields
     if (!email || !password) {
+
       logger.warn(
-        `Login validation failed reason=missing_credentials email=${email || 'missing'}`
+        `Login validation failed reason=missing_credentials email=${normalizedEmail || 'missing'}`
       );
 
       return res.status(400).json({
@@ -142,26 +157,38 @@ const loginUser = async (req, res) => {
       });
     }
 
-    const normalizedEmail = email.toLowerCase().trim();
-
+    // Find user
     logger.debug(
       `Searching user for login email=${normalizedEmail}`
     );
 
-    // Find user
     const user = await User.findOne({
       email: normalizedEmail,
     });
 
     // User does not exist
     if (!user) {
+
       logger.warn(
-        `Login failed reason=user_not_found email=${normalizedEmail}`
+        `Login failed reason=invalid_credentials email=${normalizedEmail}`
       );
 
-      return res.status(404).json({
+      return res.status(401).json({
         success: false,
-        message: 'User not found. Please register first.',
+        message: 'Invalid email or password',
+      });
+    }
+
+    // Check account status
+    if (user.status === 'Inactive') {
+
+      logger.warn(
+        `Login rejected reason=inactive_account userId=${user._id}`
+      );
+
+      return res.status(403).json({
+        success: false,
+        message: 'Your account is inactive',
       });
     }
 
@@ -176,8 +203,9 @@ const loginUser = async (req, res) => {
     );
 
     if (!isPasswordValid) {
+
       logger.warn(
-        `Login failed reason=invalid_password userId=${user._id}`
+        `Login failed reason=invalid_credentials userId=${user._id}`
       );
 
       return res.status(401).json({
@@ -186,8 +214,13 @@ const loginUser = async (req, res) => {
       });
     }
 
+    // Update last login
+    user.lastLoginAt = new Date();
+
+    await user.save();
+
     logger.info(
-      `User login successful userId=${user._id} email=${normalizedEmail}`
+      `User login successful userId=${user._id} email=${normalizedEmail} role=${user.role}`
     );
 
     return res.status(200).json({
@@ -197,10 +230,13 @@ const loginUser = async (req, res) => {
         id: user._id,
         name: user.name,
         email: user.email,
+        role: user.role,
+        status: user.status,
       },
     });
 
   } catch (error) {
+
     logger.error(
       `Login operation failed message="${error.message}"`,
       error

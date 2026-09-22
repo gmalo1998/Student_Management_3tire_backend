@@ -7,6 +7,10 @@ const morgan = require('morgan');
 const connectDB = require('./config/db');
 const logger = require('./utils/logger');
 
+const {
+  connectRedis,
+} = require('./config/redis');
+
 const studentRoutes = require('./routes/studentRoutes');
 const authRoutes = require('./routes/authRoutes');
 
@@ -61,7 +65,7 @@ app.use(express.urlencoded({ extended: true }));
 app.get('/api/health', (req, res) => {
   logger.debug('Health check requested');
 
-  res.status(200).json({
+  return res.status(200).json({
     success: true,
     message: 'Student Management API is running',
   });
@@ -72,6 +76,7 @@ app.get('/api/health', (req, res) => {
 // ========================================
 
 app.use('/api/auth', authRoutes);
+
 app.use('/api/students', studentRoutes);
 
 // ========================================
@@ -79,6 +84,7 @@ app.use('/api/students', studentRoutes);
 // ========================================
 
 app.use(notFound);
+
 app.use(errorHandler);
 
 // ========================================
@@ -104,6 +110,16 @@ const startServer = async () => {
     logger.info('MongoDB connection established');
 
     // ------------------------------------
+    // Redis
+    // ------------------------------------
+
+    logger.info('Connecting to Redis');
+
+    await connectRedis();
+
+    logger.info('Redis connection established');
+
+    // ------------------------------------
     // Start HTTP Server
     // ------------------------------------
 
@@ -119,10 +135,12 @@ const startServer = async () => {
       logger.info(
         `Health endpoint available at /api/health`
       );
+
+      logger.info(
+        'Application startup completed successfully'
+      );
     });
-
   } catch (error) {
-
     logger.error(
       `Server startup failed message="${error.message}"`,
       error

@@ -135,3 +135,964 @@
 2026-09-19 18:52:54 INFO Fetching all students
 2026-09-19 18:52:54 INFO Students fetched successfully count=2
 2026-09-19 18:52:54 INFO HTTP ::1 GET /api/students 304 32.657 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 19:33:02 INFO ========================================
+2026-09-19 19:33:02 INFO Application startup initiated
+2026-09-19 19:33:02 INFO ========================================
+2026-09-19 19:33:02 INFO Connecting to MongoDB
+2026-09-19 19:33:02 INFO MongoDB connection initialization started
+2026-09-19 19:33:03 INFO MongoDB connected successfully host=ac-vpxc1ct-shard-00-00.v2iqq07.mongodb.net database=test
+2026-09-19 19:33:03 INFO MongoDB connection established
+2026-09-19 19:33:03 INFO Connecting to Redis
+2026-09-19 19:33:03 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:33:03 WARN Redis reconnecting
+2026-09-19 19:33:03 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:33:03 WARN Redis reconnecting
+2026-09-19 19:33:03 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:33:03 WARN Redis reconnecting
+2026-09-19 19:33:03 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:33:04 WARN Redis reconnecting
+2026-09-19 19:33:04 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:33:05 WARN Redis reconnecting
+2026-09-19 19:33:05 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:33:06 WARN Redis reconnecting
+2026-09-19 19:33:06 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:33:09 WARN Redis reconnecting
+2026-09-19 19:33:09 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:33:11 WARN Redis reconnecting
+2026-09-19 19:33:11 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:33:13 WARN Redis reconnecting
+2026-09-19 19:33:13 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:33:15 WARN Redis reconnecting
+2026-09-19 19:33:15 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:33:17 WARN Redis reconnecting
+2026-09-19 19:33:17 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:33:19 WARN Redis reconnecting
+2026-09-19 19:33:19 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:33:21 WARN Redis reconnecting
+2026-09-19 19:33:21 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:33:24 WARN Redis reconnecting
+2026-09-19 19:33:24 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:33:26 WARN Redis reconnecting
+2026-09-19 19:33:26 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:33:28 WARN Redis reconnecting
+2026-09-19 19:33:28 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:33:30 WARN Redis reconnecting
+2026-09-19 19:33:30 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:33:32 WARN Redis reconnecting
+2026-09-19 19:33:32 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:33:34 WARN Redis reconnecting
+2026-09-19 19:33:34 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:33:37 WARN Redis reconnecting
+2026-09-19 19:33:37 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:33:39 WARN Redis reconnecting
+2026-09-19 19:33:39 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:33:41 WARN Redis reconnecting
+2026-09-19 19:33:41 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:33:43 WARN Redis reconnecting
+2026-09-19 19:33:43 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:33:45 WARN Redis reconnecting
+2026-09-19 19:33:45 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:33:47 WARN Redis reconnecting
+2026-09-19 19:33:47 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:33:49 WARN Redis reconnecting
+2026-09-19 19:33:49 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:33:51 WARN Redis reconnecting
+2026-09-19 19:33:51 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:33:53 WARN Redis reconnecting
+2026-09-19 19:33:53 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:33:56 WARN Redis reconnecting
+2026-09-19 19:33:56 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:33:58 WARN Redis reconnecting
+2026-09-19 19:33:58 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:34:00 WARN Redis reconnecting
+2026-09-19 19:34:00 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:34:02 WARN Redis reconnecting
+2026-09-19 19:34:02 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:34:04 WARN Redis reconnecting
+2026-09-19 19:34:04 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:34:06 WARN Redis reconnecting
+2026-09-19 19:34:06 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:34:08 WARN Redis reconnecting
+2026-09-19 19:34:08 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:34:10 WARN Redis reconnecting
+2026-09-19 19:34:10 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:34:12 WARN Redis reconnecting
+2026-09-19 19:34:12 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:34:14 WARN Redis reconnecting
+2026-09-19 19:34:14 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 19:34:16 WARN Redis reconnecting
+2026-09-19 19:34:16 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 20:05:28 INFO ========================================
+2026-09-19 20:05:28 INFO Application startup initiated
+2026-09-19 20:05:28 INFO ========================================
+2026-09-19 20:05:28 INFO Connecting to MongoDB
+2026-09-19 20:05:28 INFO MongoDB connection initialization started
+2026-09-19 20:05:31 INFO MongoDB connected successfully host=ac-vpxc1ct-shard-00-02.v2iqq07.mongodb.net database=test
+2026-09-19 20:05:31 INFO MongoDB connection established
+2026-09-19 20:05:31 INFO Connecting to Redis
+2026-09-19 20:05:31 INFO Redis connection established
+2026-09-19 20:05:31 INFO Redis client ready
+2026-09-19 20:05:31 INFO Redis connection established
+2026-09-19 20:05:31 INFO Student Management API started successfully port=5000
+2026-09-19 20:05:31 INFO Application environment=development
+2026-09-19 20:05:31 INFO Health endpoint available at /api/health
+2026-09-19 20:05:31 INFO Application startup completed successfully
+2026-09-19 20:06:21 INFO HTTP ::1 OPTIONS /api/students 204 2.777 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:06:21 INFO Fetching all students
+2026-09-19 20:06:21 INFO HTTP ::1 OPTIONS /api/students 204 2.231 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:06:21 INFO Students fetched successfully count=2
+2026-09-19 20:06:21 INFO HTTP ::1 GET /api/students 200 61.268 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:06:21 INFO Fetching all students
+2026-09-19 20:06:21 INFO Students fetched successfully count=2
+2026-09-19 20:06:21 INFO HTTP ::1 GET /api/students 304 30.586 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:06:27 INFO HTTP ::1 OPTIONS /api/students 204 0.251 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:06:27 INFO HTTP ::1 OPTIONS /api/students 204 0.163 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:06:27 INFO Fetching all students
+2026-09-19 20:06:27 INFO Students fetched successfully count=2
+2026-09-19 20:06:27 INFO HTTP ::1 GET /api/students 304 44.483 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:06:27 INFO Fetching all students
+2026-09-19 20:06:28 INFO Students fetched successfully count=2
+2026-09-19 20:06:28 INFO HTTP ::1 GET /api/students 304 30.258 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:06:50 INFO HTTP ::1 OPTIONS /api/auth/login 204 0.312 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:06:51 INFO User login successful userId=6aad357f50ea287edd557997 email=malo.ganesh98@gmail.com role=user
+2026-09-19 20:06:51 INFO HTTP ::1 POST /api/auth/login 200 1073.977 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:06:51 INFO HTTP ::1 OPTIONS /api/students 204 0.155 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:06:51 INFO HTTP ::1 OPTIONS /api/students 204 0.141 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:06:51 INFO Fetching all students
+2026-09-19 20:06:51 INFO Students fetched successfully count=2
+2026-09-19 20:06:51 INFO HTTP ::1 GET /api/students 304 31.514 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:06:51 INFO Fetching all students
+2026-09-19 20:06:51 INFO Students fetched successfully count=2
+2026-09-19 20:06:51 INFO HTTP ::1 GET /api/students 304 29.482 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:06:58 INFO HTTP ::1 OPTIONS /api/students/6aae41d7eb79eb0acb307efa 204 0.286 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:06:58 INFO HTTP ::1 OPTIONS /api/students/6aae41d7eb79eb0acb307efa 204 0.206 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:06:58 INFO Fetching student studentRecordId=6aae41d7eb79eb0acb307efa
+2026-09-19 20:06:58 INFO Student fetched successfully studentId=STU002
+2026-09-19 20:06:58 INFO HTTP ::1 GET /api/students/6aae41d7eb79eb0acb307efa 200 33.049 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:06:58 INFO Fetching student studentRecordId=6aae41d7eb79eb0acb307efa
+2026-09-19 20:06:58 INFO Student fetched successfully studentId=STU002
+2026-09-19 20:06:58 INFO HTTP ::1 GET /api/students/6aae41d7eb79eb0acb307efa 304 32.255 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:07:06 INFO HTTP ::1 OPTIONS /api/students/6aae41d7eb79eb0acb307efa 204 0.210 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:07:06 INFO HTTP ::1 OPTIONS /api/students/6aae41d7eb79eb0acb307efa 204 0.409 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:07:06 INFO Fetching student studentRecordId=6aae41d7eb79eb0acb307efa
+2026-09-19 20:07:06 INFO Student fetched successfully studentId=STU002
+2026-09-19 20:07:06 INFO HTTP ::1 GET /api/students/6aae41d7eb79eb0acb307efa 304 29.534 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:07:06 INFO Fetching student studentRecordId=6aae41d7eb79eb0acb307efa
+2026-09-19 20:07:06 INFO Student fetched successfully studentId=STU002
+2026-09-19 20:07:06 INFO HTTP ::1 GET /api/students/6aae41d7eb79eb0acb307efa 304 33.243 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:07:14 INFO HTTP ::1 OPTIONS /api/students 204 0.107 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:07:14 INFO HTTP ::1 OPTIONS /api/students 204 0.123 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:07:14 INFO Fetching all students
+2026-09-19 20:07:14 INFO Students fetched successfully count=2
+2026-09-19 20:07:14 INFO HTTP ::1 GET /api/students 304 38.657 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:07:14 INFO Fetching all students
+2026-09-19 20:07:14 INFO Students fetched successfully count=2
+2026-09-19 20:07:14 INFO HTTP ::1 GET /api/students 304 32.283 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:12:23 INFO HTTP ::1 OPTIONS /api/auth/login 204 0.195 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:12:23 WARN Login failed reason=invalid_credentials email=malo.ganesh98@gmail.com
+2026-09-19 20:12:23 INFO HTTP ::1 POST /api/auth/login 401 28.271 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:12:52 INFO HTTP ::1 OPTIONS /api/auth/register 204 0.142 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:12:52 INFO User registration successful userId=6aae9f6cd48d0c85aec3d15c email=malo.ganesh98@gmail.com role=user
+2026-09-19 20:12:52 INFO HTTP ::1 POST /api/auth/register 201 182.825 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:13:00 INFO HTTP ::1 OPTIONS /api/auth/login 204 0.149 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:13:00 INFO User login successful userId=6aae9f6cd48d0c85aec3d15c email=malo.ganesh98@gmail.com role=user
+2026-09-19 20:13:00 INFO HTTP ::1 POST /api/auth/login 200 175.377 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:13:00 INFO HTTP ::1 OPTIONS /api/students 204 0.100 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:13:00 INFO Fetching all students
+2026-09-19 20:13:00 INFO Students fetched successfully count=0
+2026-09-19 20:13:00 INFO HTTP ::1 GET /api/students 200 28.763 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:13:00 INFO Fetching all students
+2026-09-19 20:13:00 INFO Students fetched successfully count=0
+2026-09-19 20:13:00 INFO HTTP ::1 GET /api/students 304 33.505 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:13:09 INFO HTTP ::1 OPTIONS /api/students 204 0.197 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:13:09 INFO HTTP ::1 OPTIONS /api/students 204 0.106 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:13:09 INFO Fetching all students
+2026-09-19 20:13:09 INFO Students fetched successfully count=0
+2026-09-19 20:13:09 INFO HTTP ::1 GET /api/students 304 53.729 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:13:09 INFO Fetching all students
+2026-09-19 20:13:09 INFO Students fetched successfully count=0
+2026-09-19 20:13:09 INFO HTTP ::1 GET /api/students 304 29.402 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:17:05 INFO HTTP ::1 OPTIONS /api/students 204 0.079 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:17:05 INFO Create student request received email=virat.kohli@gmail.com department=Information Technology course=B.Tech batch=2022-2026
+2026-09-19 20:17:05 INFO Student created successfully studentId=STU001 department=Information Technology course=B.Tech batch=2022-2026
+2026-09-19 20:17:05 INFO HTTP ::1 POST /api/students 201 151.447 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:17:05 INFO Fetching all students
+2026-09-19 20:17:05 INFO Students fetched successfully count=1
+2026-09-19 20:17:05 INFO HTTP ::1 GET /api/students 200 32.464 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:17:05 INFO Fetching all students
+2026-09-19 20:17:05 INFO Students fetched successfully count=1
+2026-09-19 20:17:05 INFO HTTP ::1 GET /api/students 304 32.327 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:17:15 INFO HTTP ::1 OPTIONS /api/students/6aaea069d48d0c85aec3d15d 204 0.235 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:17:15 INFO Fetching student studentRecordId=6aaea069d48d0c85aec3d15d
+2026-09-19 20:17:15 INFO Student fetched successfully studentId=STU001
+2026-09-19 20:17:15 INFO HTTP ::1 GET /api/students/6aaea069d48d0c85aec3d15d 200 33.934 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:17:15 INFO Fetching student studentRecordId=6aaea069d48d0c85aec3d15d
+2026-09-19 20:17:15 INFO Student fetched successfully studentId=STU001
+2026-09-19 20:17:15 INFO HTTP ::1 GET /api/students/6aaea069d48d0c85aec3d15d 304 49.768 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:17:20 INFO Fetching student studentRecordId=6aaea069d48d0c85aec3d15d
+2026-09-19 20:17:20 INFO Student fetched successfully studentId=STU001
+2026-09-19 20:17:20 INFO HTTP ::1 GET /api/students/6aaea069d48d0c85aec3d15d 304 34.801 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:17:20 INFO Fetching student studentRecordId=6aaea069d48d0c85aec3d15d
+2026-09-19 20:17:20 INFO Student fetched successfully studentId=STU001
+2026-09-19 20:17:20 INFO HTTP ::1 GET /api/students/6aaea069d48d0c85aec3d15d 304 29.064 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:17:27 INFO HTTP ::1 OPTIONS /api/students 204 0.165 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:17:27 INFO HTTP ::1 OPTIONS /api/students 204 0.710 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:17:27 INFO Fetching all students
+2026-09-19 20:17:27 INFO Students fetched successfully count=1
+2026-09-19 20:17:27 INFO HTTP ::1 GET /api/students 304 31.041 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:17:27 INFO Fetching all students
+2026-09-19 20:17:27 INFO Students fetched successfully count=1
+2026-09-19 20:17:27 INFO HTTP ::1 GET /api/students 304 28.843 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:17:29 INFO HTTP ::1 OPTIONS /api/students/6aaea069d48d0c85aec3d15d 204 0.139 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:17:29 INFO Fetching student studentRecordId=6aaea069d48d0c85aec3d15d
+2026-09-19 20:17:29 INFO Student fetched successfully studentId=STU001
+2026-09-19 20:17:29 INFO HTTP ::1 GET /api/students/6aaea069d48d0c85aec3d15d 304 28.910 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:17:29 INFO Fetching student studentRecordId=6aaea069d48d0c85aec3d15d
+2026-09-19 20:17:29 INFO Student fetched successfully studentId=STU001
+2026-09-19 20:17:29 INFO HTTP ::1 GET /api/students/6aaea069d48d0c85aec3d15d 304 29.197 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:17:31 INFO Fetching all students
+2026-09-19 20:17:31 INFO Students fetched successfully count=1
+2026-09-19 20:17:31 INFO HTTP ::1 GET /api/students 304 26.933 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:17:31 INFO Fetching all students
+2026-09-19 20:17:31 INFO Students fetched successfully count=1
+2026-09-19 20:17:31 INFO HTTP ::1 GET /api/students 304 27.578 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:17:33 INFO HTTP ::1 OPTIONS /api/students 204 0.107 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:17:33 INFO Fetching all students
+2026-09-19 20:17:33 INFO Students fetched successfully count=1
+2026-09-19 20:17:33 INFO HTTP ::1 GET /api/students 304 29.527 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:18:18 INFO HTTP ::1 OPTIONS /api/students 204 0.180 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:18:18 INFO HTTP ::1 OPTIONS /api/students 204 0.110 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:18:18 INFO Fetching all students
+2026-09-19 20:18:18 INFO Students fetched successfully count=1
+2026-09-19 20:18:18 INFO HTTP ::1 GET /api/students 304 26.779 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:18:18 INFO Fetching all students
+2026-09-19 20:18:18 INFO Students fetched successfully count=1
+2026-09-19 20:18:18 INFO HTTP ::1 GET /api/students 304 32.339 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:18:38 INFO HTTP ::1 OPTIONS /api/students 204 0.176 ms user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 27 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27 Mobile/15E148 Safari/604.1"
+2026-09-19 20:18:38 INFO Fetching all students
+2026-09-19 20:18:38 INFO Fetching all students
+2026-09-19 20:18:38 INFO Students fetched successfully count=1
+2026-09-19 20:18:38 INFO HTTP ::1 GET /api/students 200 45.458 ms user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 27 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27 Mobile/15E148 Safari/604.1"
+2026-09-19 20:18:38 INFO Students fetched successfully count=1
+2026-09-19 20:18:38 INFO HTTP ::1 GET /api/students 200 33.569 ms user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 27 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27 Mobile/15E148 Safari/604.1"
+2026-09-19 20:18:47 INFO HTTP ::1 OPTIONS /api/students 204 0.101 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:18:47 INFO Fetching all students
+2026-09-19 20:18:48 INFO Students fetched successfully count=1
+2026-09-19 20:18:48 INFO HTTP ::1 GET /api/students 304 36.065 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:18:48 INFO Fetching all students
+2026-09-19 20:18:48 INFO Students fetched successfully count=1
+2026-09-19 20:18:48 INFO HTTP ::1 GET /api/students 304 37.555 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:18:50 INFO Fetching all students
+2026-09-19 20:18:50 INFO Fetching all students
+2026-09-19 20:18:50 INFO Students fetched successfully count=1
+2026-09-19 20:18:50 INFO HTTP ::1 GET /api/students 200 27.338 ms user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 27 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27 Mobile/15E148 Safari/604.1"
+2026-09-19 20:18:50 INFO Students fetched successfully count=1
+2026-09-19 20:18:50 INFO HTTP ::1 GET /api/students 200 28.431 ms user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 27 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27 Mobile/15E148 Safari/604.1"
+2026-09-19 20:18:53 INFO HTTP ::1 OPTIONS /api/students 204 0.102 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:18:53 INFO Fetching all students
+2026-09-19 20:18:53 INFO Students fetched successfully count=1
+2026-09-19 20:18:53 INFO HTTP ::1 GET /api/students 304 38.554 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:18:53 INFO Fetching all students
+2026-09-19 20:18:53 INFO Students fetched successfully count=1
+2026-09-19 20:18:53 INFO HTTP ::1 GET /api/students 304 34.773 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:18:56 INFO Fetching all students
+2026-09-19 20:18:56 INFO Students fetched successfully count=1
+2026-09-19 20:18:56 INFO HTTP ::1 GET /api/students 304 32.780 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:18:56 INFO Fetching all students
+2026-09-19 20:18:56 INFO Students fetched successfully count=1
+2026-09-19 20:18:56 INFO HTTP ::1 GET /api/students 304 54.485 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:19:08 INFO HTTP ::1 OPTIONS /api/students/6aaea069d48d0c85aec3d15d 204 0.148 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:19:08 INFO HTTP ::1 OPTIONS /api/students/6aaea069d48d0c85aec3d15d 204 0.087 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:19:08 INFO Fetching student studentRecordId=6aaea069d48d0c85aec3d15d
+2026-09-19 20:19:08 INFO Student fetched successfully studentId=STU001
+2026-09-19 20:19:08 INFO HTTP ::1 GET /api/students/6aaea069d48d0c85aec3d15d 304 29.896 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:19:08 INFO Fetching student studentRecordId=6aaea069d48d0c85aec3d15d
+2026-09-19 20:19:08 INFO Student fetched successfully studentId=STU001
+2026-09-19 20:19:08 INFO HTTP ::1 GET /api/students/6aaea069d48d0c85aec3d15d 304 44.752 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:19:15 INFO HTTP ::1 OPTIONS /api/students/6aaea069d48d0c85aec3d15d 204 0.074 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:19:15 INFO Update student request received studentRecordId=6aaea069d48d0c85aec3d15d
+2026-09-19 20:19:15 INFO Student updated successfully studentId=STU001 fields=name,email,phone,dob,gender,department,stream,course,specialization,batch,year,semester,section,admissionNumber,rollNumber,admissionDate,joiningDate,graduationYear,guardianName,guardianRelationship,guardianPhone,address,status
+2026-09-19 20:19:15 INFO HTTP ::1 PUT /api/students/6aaea069d48d0c85aec3d15d 200 165.450 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:19:15 INFO HTTP ::1 OPTIONS /api/students 204 0.135 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:19:15 INFO HTTP ::1 OPTIONS /api/students 204 0.166 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:19:15 INFO Fetching all students
+2026-09-19 20:19:16 INFO Students fetched successfully count=1
+2026-09-19 20:19:16 INFO HTTP ::1 GET /api/students 200 27.066 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:19:16 INFO Fetching all students
+2026-09-19 20:19:16 INFO Students fetched successfully count=1
+2026-09-19 20:19:16 INFO HTTP ::1 GET /api/students 304 32.417 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:20:41 INFO HTTP ::1 OPTIONS /api/auth/register 204 0.119 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 20:20:41 WARN Registration rejected reason=user_already_exists email=malo.ganesh98@gmail.com
+2026-09-19 20:20:41 INFO HTTP ::1 POST /api/auth/register 409 30.423 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 21:10:45 INFO ========================================
+2026-09-19 21:10:45 INFO Application startup initiated
+2026-09-19 21:10:45 INFO ========================================
+2026-09-19 21:10:45 INFO Connecting to MongoDB
+2026-09-19 21:10:45 INFO MongoDB connection initialization started
+2026-09-19 21:10:46 INFO MongoDB connected successfully host=ac-vpxc1ct-shard-00-02.v2iqq07.mongodb.net database=test
+2026-09-19 21:10:46 INFO MongoDB connection established
+2026-09-19 21:10:46 INFO Connecting to Redis
+2026-09-19 21:10:46 INFO Redis connection established
+2026-09-19 21:10:46 INFO Redis client ready
+2026-09-19 21:10:46 INFO Redis connection established
+2026-09-19 21:10:46 INFO Student Management API started successfully port=5000
+2026-09-19 21:10:46 INFO Application environment=development
+2026-09-19 21:10:46 INFO Health endpoint available at /api/health
+2026-09-19 21:10:46 INFO Application startup completed successfully
+2026-09-19 21:20:28 INFO HTTP ::ffff:127.0.0.1 GET /api/health 200 6.395 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 23:01:48 ERROR Error: Socket closed unexpectedly
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\3tire\Student_Management\Student_Management_3tire_backend\node_modules\@redis\client\dist\lib\client\socket.js:307:33)
+    at Object.onceWrapper (node:events:631:26)
+    at Socket.emit (node:events:509:28)
+    at TCP.<anonymous> (node:net:351:12)
+2026-09-19 23:01:48 WARN Redis reconnecting
+2026-09-19 23:01:48 INFO Redis connection established
+2026-09-19 23:01:48 ERROR Error: Socket closed unexpectedly
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\3tire\Student_Management\Student_Management_3tire_backend\node_modules\@redis\client\dist\lib\client\socket.js:307:33)
+    at Object.onceWrapper (node:events:631:26)
+    at Socket.emit (node:events:521:24)
+    at TCP.<anonymous> (node:net:351:12)
+2026-09-19 23:01:48 ERROR Error: Socket closed unexpectedly
+    at Socket.onSocketDied (C:\Users\Administrator\Desktop\3tire\Student_Management\Student_Management_3tire_backend\node_modules\@redis\client\dist\lib\client\socket.js:243:53)
+    at Object.onceWrapper (node:events:631:26)
+    at Socket.emit (node:events:521:24)
+    at TCP.<anonymous> (node:net:351:12)
+2026-09-19 23:01:48 WARN Redis reconnecting
+2026-09-19 23:01:48 INFO Redis connection established
+2026-09-19 23:01:48 ERROR Error: Socket closed unexpectedly
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\3tire\Student_Management\Student_Management_3tire_backend\node_modules\@redis\client\dist\lib\client\socket.js:307:33)
+    at Object.onceWrapper (node:events:631:26)
+    at Socket.emit (node:events:521:24)
+    at TCP.<anonymous> (node:net:351:12)
+2026-09-19 23:01:48 ERROR Error: Socket closed unexpectedly
+    at Socket.onSocketDied (C:\Users\Administrator\Desktop\3tire\Student_Management\Student_Management_3tire_backend\node_modules\@redis\client\dist\lib\client\socket.js:243:53)
+    at Object.onceWrapper (node:events:631:26)
+    at Socket.emit (node:events:521:24)
+    at TCP.<anonymous> (node:net:351:12)
+2026-09-19 23:01:48 WARN Redis reconnecting
+2026-09-19 23:01:48 INFO Redis connection established
+2026-09-19 23:02:11 ERROR Error: Socket closed unexpectedly
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\3tire\Student_Management\Student_Management_3tire_backend\node_modules\@redis\client\dist\lib\client\socket.js:307:33)
+    at Object.onceWrapper (node:events:631:26)
+    at Socket.emit (node:events:521:24)
+    at TCP.<anonymous> (node:net:351:12)
+2026-09-19 23:02:11 ERROR Error: Socket closed unexpectedly
+    at Socket.onSocketDied (C:\Users\Administrator\Desktop\3tire\Student_Management\Student_Management_3tire_backend\node_modules\@redis\client\dist\lib\client\socket.js:243:53)
+    at Object.onceWrapper (node:events:631:26)
+    at Socket.emit (node:events:521:24)
+    at TCP.<anonymous> (node:net:351:12)
+2026-09-19 23:02:11 WARN Redis reconnecting
+2026-09-19 23:02:11 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:02:11 WARN Redis reconnecting
+2026-09-19 23:02:11 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:02:12 WARN Redis reconnecting
+2026-09-19 23:02:12 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:02:14 WARN Redis reconnecting
+2026-09-19 23:02:14 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:02:16 WARN Redis reconnecting
+2026-09-19 23:02:16 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:02:18 WARN Redis reconnecting
+2026-09-19 23:02:18 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:02:20 INFO HTTP ::1 OPTIONS /api/auth/login 204 1.019 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 23:02:20 WARN Redis reconnecting
+2026-09-19 23:02:20 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:02:21 WARN Login failed reason=invalid_credentials userId=6aae9f6cd48d0c85aec3d15c
+2026-09-19 23:02:21 INFO HTTP ::1 POST /api/auth/login 401 650.740 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 23:02:22 WARN Redis reconnecting
+2026-09-19 23:02:22 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:02:24 WARN Redis reconnecting
+2026-09-19 23:02:24 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:02:27 WARN Redis reconnecting
+2026-09-19 23:02:27 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:02:29 WARN Redis reconnecting
+2026-09-19 23:02:29 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:02:31 WARN Redis reconnecting
+2026-09-19 23:02:31 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:02:33 INFO HTTP ::1 OPTIONS /api/auth/login 204 0.155 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 23:02:33 WARN Login failed reason=invalid_credentials userId=6aae9f6cd48d0c85aec3d15c
+2026-09-19 23:02:33 INFO HTTP ::1 POST /api/auth/login 401 150.006 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 23:02:33 WARN Redis reconnecting
+2026-09-19 23:02:33 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:02:35 WARN Redis reconnecting
+2026-09-19 23:02:35 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:02:37 WARN Redis reconnecting
+2026-09-19 23:02:37 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:02:39 WARN Redis reconnecting
+2026-09-19 23:02:39 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:02:41 WARN Redis reconnecting
+2026-09-19 23:02:41 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:02:43 WARN Redis reconnecting
+2026-09-19 23:02:43 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:02:46 WARN Redis reconnecting
+2026-09-19 23:02:46 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:02:48 WARN Redis reconnecting
+2026-09-19 23:02:48 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:02:50 WARN Redis reconnecting
+2026-09-19 23:02:50 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:02:52 WARN Redis reconnecting
+2026-09-19 23:02:52 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:02:54 WARN Redis reconnecting
+2026-09-19 23:02:54 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:02:56 WARN Redis reconnecting
+2026-09-19 23:02:56 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:02:58 WARN Redis reconnecting
+2026-09-19 23:02:58 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:03:01 WARN Redis reconnecting
+2026-09-19 23:03:01 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:03:03 WARN Redis reconnecting
+2026-09-19 23:03:03 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:03:04 INFO HTTP ::1 OPTIONS /api/auth/login 204 0.228 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 23:03:05 WARN Login failed reason=invalid_credentials userId=6aae9f6cd48d0c85aec3d15c
+2026-09-19 23:03:05 INFO HTTP ::1 POST /api/auth/login 401 152.567 ms user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+2026-09-19 23:03:05 WARN Redis reconnecting
+2026-09-19 23:03:05 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:03:07 WARN Redis reconnecting
+2026-09-19 23:03:07 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:03:09 WARN Redis reconnecting
+2026-09-19 23:03:09 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:03:11 WARN Redis reconnecting
+2026-09-19 23:03:11 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:03:13 WARN Redis reconnecting
+2026-09-19 23:03:13 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:03:16 WARN Redis reconnecting
+2026-09-19 23:03:16 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:03:18 WARN Redis reconnecting
+2026-09-19 23:03:18 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:03:20 WARN Redis reconnecting
+2026-09-19 23:03:20 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:03:22 WARN Redis reconnecting
+2026-09-19 23:03:22 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:03:24 WARN Redis reconnecting
+2026-09-19 23:03:24 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:03:26 WARN Redis reconnecting
+2026-09-19 23:03:26 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:03:28 WARN Redis reconnecting
+2026-09-19 23:03:28 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:03:30 WARN Redis reconnecting
+2026-09-19 23:03:30 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:03:32 WARN Redis reconnecting
+2026-09-19 23:03:32 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:03:34 WARN Redis reconnecting
+2026-09-19 23:03:34 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:03:36 WARN Redis reconnecting
+2026-09-19 23:03:36 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:03:38 WARN Redis reconnecting
+2026-09-19 23:03:38 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:03:40 WARN Redis reconnecting
+2026-09-19 23:03:40 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:03:43 WARN Redis reconnecting
+2026-09-19 23:03:43 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:03:45 WARN Redis reconnecting
+2026-09-19 23:03:45 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:03:47 WARN Redis reconnecting
+2026-09-19 23:03:47 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:03:49 WARN Redis reconnecting
+2026-09-19 23:03:49 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:03:51 WARN Redis reconnecting
+2026-09-19 23:03:51 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:03:53 WARN Redis reconnecting
+2026-09-19 23:03:53 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:03:55 WARN Redis reconnecting
+2026-09-19 23:03:55 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:03:57 WARN Redis reconnecting
+2026-09-19 23:03:57 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:04:00 WARN Redis reconnecting
+2026-09-19 23:04:00 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:04:02 WARN Redis reconnecting
+2026-09-19 23:04:02 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:04:04 WARN Redis reconnecting
+2026-09-19 23:04:04 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:04:06 WARN Redis reconnecting
+2026-09-19 23:04:06 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:04:08 WARN Redis reconnecting
+2026-09-19 23:04:08 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:04:10 WARN Redis reconnecting
+2026-09-19 23:04:10 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:04:12 WARN Redis reconnecting
+2026-09-19 23:04:12 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:04:14 WARN Redis reconnecting
+2026-09-19 23:04:14 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:04:16 WARN Redis reconnecting
+2026-09-19 23:04:16 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:04:19 WARN Redis reconnecting
+2026-09-19 23:04:19 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:04:21 WARN Redis reconnecting
+2026-09-19 23:04:21 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:04:23 WARN Redis reconnecting
+2026-09-19 23:04:23 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:04:25 WARN Redis reconnecting
+2026-09-19 23:04:25 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:04:27 WARN Redis reconnecting
+2026-09-19 23:04:27 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:04:29 WARN Redis reconnecting
+2026-09-19 23:04:29 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:04:31 WARN Redis reconnecting
+2026-09-19 23:04:31 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:04:33 WARN Redis reconnecting
+2026-09-19 23:04:33 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:04:35 WARN Redis reconnecting
+2026-09-19 23:04:35 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:04:37 WARN Redis reconnecting
+2026-09-19 23:04:37 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:04:40 WARN Redis reconnecting
+2026-09-19 23:04:40 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:04:42 WARN Redis reconnecting
+2026-09-19 23:04:42 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:04:44 WARN Redis reconnecting
+2026-09-19 23:04:44 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:04:46 WARN Redis reconnecting
+2026-09-19 23:04:46 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:04:48 WARN Redis reconnecting
+2026-09-19 23:04:48 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:04:50 WARN Redis reconnecting
+2026-09-19 23:04:50 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:04:52 WARN Redis reconnecting
+2026-09-19 23:04:52 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:04:54 WARN Redis reconnecting
+2026-09-19 23:04:54 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:04:56 WARN Redis reconnecting
+2026-09-19 23:04:56 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:04:59 WARN Redis reconnecting
+2026-09-19 23:04:59 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:05:01 WARN Redis reconnecting
+2026-09-19 23:05:01 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:05:03 WARN Redis reconnecting
+2026-09-19 23:05:03 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:05:05 WARN Redis reconnecting
+2026-09-19 23:05:05 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:05:07 WARN Redis reconnecting
+2026-09-19 23:05:07 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:05:09 WARN Redis reconnecting
+2026-09-19 23:05:09 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:05:11 WARN Redis reconnecting
+2026-09-19 23:05:11 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:05:14 WARN Redis reconnecting
+2026-09-19 23:05:14 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:05:16 WARN Redis reconnecting
+2026-09-19 23:05:16 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:05:18 WARN Redis reconnecting
+2026-09-19 23:05:18 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:05:20 WARN Redis reconnecting
+2026-09-19 23:05:20 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:05:22 WARN Redis reconnecting
+2026-09-19 23:05:22 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:05:24 WARN Redis reconnecting
+2026-09-19 23:05:24 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:05:26 WARN Redis reconnecting
+2026-09-19 23:05:26 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:05:28 WARN Redis reconnecting
+2026-09-19 23:05:28 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:05:30 WARN Redis reconnecting
+2026-09-19 23:05:30 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:05:32 WARN Redis reconnecting
+2026-09-19 23:05:32 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:05:35 WARN Redis reconnecting
+2026-09-19 23:05:35 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:05:37 WARN Redis reconnecting
+2026-09-19 23:05:37 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:05:39 WARN Redis reconnecting
+2026-09-19 23:05:39 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:05:41 WARN Redis reconnecting
+2026-09-19 23:05:41 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:05:43 WARN Redis reconnecting
+2026-09-19 23:05:43 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:05:45 WARN Redis reconnecting
+2026-09-19 23:05:45 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:05:47 WARN Redis reconnecting
+2026-09-19 23:05:47 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:05:49 WARN Redis reconnecting
+2026-09-19 23:05:49 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:05:51 WARN Redis reconnecting
+2026-09-19 23:05:51 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:05:53 WARN Redis reconnecting
+2026-09-19 23:05:53 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:05:55 WARN Redis reconnecting
+2026-09-19 23:05:55 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:05:58 WARN Redis reconnecting
+2026-09-19 23:05:58 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:06:00 WARN Redis reconnecting
+2026-09-19 23:06:00 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:06:02 WARN Redis reconnecting
+2026-09-19 23:06:02 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:06:10 INFO ========================================
+2026-09-19 23:06:10 INFO Application startup initiated
+2026-09-19 23:06:10 INFO ========================================
+2026-09-19 23:06:10 INFO Connecting to MongoDB
+2026-09-19 23:06:10 INFO MongoDB connection initialization started
+2026-09-19 23:06:11 INFO MongoDB connected successfully host=ac-vpxc1ct-shard-00-02.v2iqq07.mongodb.net database=test
+2026-09-19 23:06:11 INFO MongoDB connection established
+2026-09-19 23:06:11 INFO Connecting to Redis
+2026-09-19 23:06:11 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:06:11 WARN Redis reconnecting
+2026-09-19 23:06:11 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:06:11 WARN Redis reconnecting
+2026-09-19 23:06:11 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:06:11 WARN Redis reconnecting
+2026-09-19 23:06:11 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:06:12 WARN Redis reconnecting
+2026-09-19 23:06:12 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:06:13 WARN Redis reconnecting
+2026-09-19 23:06:13 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:06:14 WARN Redis reconnecting
+2026-09-19 23:06:14 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:06:17 WARN Redis reconnecting
+2026-09-19 23:06:17 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:06:30 INFO ========================================
+2026-09-19 23:06:30 INFO Application startup initiated
+2026-09-19 23:06:30 INFO ========================================
+2026-09-19 23:06:30 INFO Connecting to MongoDB
+2026-09-19 23:06:30 INFO MongoDB connection initialization started
+2026-09-19 23:06:30 INFO MongoDB connected successfully host=ac-vpxc1ct-shard-00-01.v2iqq07.mongodb.net database=test
+2026-09-19 23:06:30 INFO MongoDB connection established
+2026-09-19 23:06:30 INFO Connecting to Redis
+2026-09-19 23:06:30 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:06:30 WARN Redis reconnecting
+2026-09-19 23:06:30 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:06:31 WARN Redis reconnecting
+2026-09-19 23:06:31 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:06:31 WARN Redis reconnecting
+2026-09-19 23:06:31 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:06:31 WARN Redis reconnecting
+2026-09-19 23:06:31 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:06:32 WARN Redis reconnecting
+2026-09-19 23:06:32 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:06:34 WARN Redis reconnecting
+2026-09-19 23:06:34 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
+2026-09-19 23:06:36 WARN Redis reconnecting
+2026-09-19 23:06:36 ERROR AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1194:18)
+    at afterConnectMultiple (node:net:1784:7)
